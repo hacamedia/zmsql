@@ -23,7 +23,7 @@
 *
 * ==== @category Database Access
 * ==== @package ZMSQL
-* ==== @author Mauricio <mauricio@jhacamedia.com>
+* ==== @author Mauricio <mauricio@hacamedia.com>
 * ==== @version 1.0
 **/
 
