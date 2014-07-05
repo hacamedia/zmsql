@@ -2,17 +2,11 @@
 
 include('ZMSQL.php');
 
-$zm = new ZMSQL('root','','zme_database');
+$zm = new ZMSQL('root','1234','database');
 
-$como = 'hoa';
-$a = '14';
- $data = $zm->select("tb_zmTRM")
- 			->where("term =?", $como)
- 			->where("id =?", $a)
- 			->setOperator('OR')
- 			->where("value =?", 'ok')
- 			->order("id", "DESC")
- 			->run();
+$data = $zm->select("mytable")
+            ->distinct('term') // Eliminar valores repetidos
+            ->run();//Ejecuta el query.	
 
 
 print_r('<pre>');

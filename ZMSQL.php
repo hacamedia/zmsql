@@ -212,7 +212,7 @@ class ZMSQL{
     }
 
     /*=================================
-	 *-----------SET-------------------
+	 *-----------distinct--------------
 	 * Uso para el método @select.
 	 *================================*/
 
@@ -344,10 +344,11 @@ class ZMSQL{
 	    			if(isset($this->select->limit) && $this->select->limit != '')
 	    				$querie = $querie. " LIMIT " .$this->select->limit;
 
+                    echo $querie;
+
 			    	$exec = $this->mysqli->connection->query($querie);
 
 			    	$this->throwError($exec);
-
 
 			        $arr = array();
 
