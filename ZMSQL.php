@@ -442,7 +442,7 @@ class ZMSQL{
 
     		return $sk->condition ;
     }
-
+ 
     private function throwError($exec){
 
     	if (!$exec) {
