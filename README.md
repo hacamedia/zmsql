@@ -45,7 +45,7 @@ Finalmente hacemos usamos los métodos necesarios.
 
 Para mayor información visita la [wiki](https://bitbucket.org/hacamedia/zmsql/wiki/Home)
 
-## *Licencia * ##
+## *Licencia* ##
 ----
 
  >*This program is free software: you can redistribute it and/or modify
