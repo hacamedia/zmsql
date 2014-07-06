@@ -1,0 +1,4 @@
+zmsql
+=====
+
+Clase php mysqli
